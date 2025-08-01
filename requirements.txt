@@ -1,0 +1,8 @@
+ray
+scikit-learn
+joblib
+fastapi
+uvicorn
+pandas
+ray[serve]
+numpy
