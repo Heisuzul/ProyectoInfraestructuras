@@ -10,17 +10,20 @@ Este proyecto demuestra cómo utilizar [Ray](https://www.ray.io/) para paraleliz
 
 ## Pasos para ejecutar
 
-1. **Activar el entorno virtual**  
+1. Crear entorno virtual
+  python -m venv .venv
+
+2. **Activar el entorno virtual**  
    En Windows:
    ```bash
    .\.venv\Scripts\activate
 
-2. Instalar dependencias
+3. Instalar dependencias
   pip install -r requirements.txt
 
-3. Iniciar Ray localmente
+4. Iniciar Ray localmente
   ray start --head
 
-4. Ejecutar el servicio API
+5. Ejecutar el servicio API
   python main.py
 
